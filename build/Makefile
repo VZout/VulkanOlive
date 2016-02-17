@@ -149,32 +149,59 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/swapchain.obj: src/swapchain.cpp.obj
+src/vkhelper.obj: src/vkhelper.cpp.obj
 
-.PHONY : src/swapchain.obj
+.PHONY : src/vkhelper.obj
 
 # target to build an object file
-src/swapchain.cpp.obj:
-	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/swapchain.cpp.obj
-.PHONY : src/swapchain.cpp.obj
+src/vkhelper.cpp.obj:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/vkhelper.cpp.obj
+.PHONY : src/vkhelper.cpp.obj
 
-src/swapchain.i: src/swapchain.cpp.i
+src/vkhelper.i: src/vkhelper.cpp.i
 
-.PHONY : src/swapchain.i
+.PHONY : src/vkhelper.i
 
 # target to preprocess a source file
-src/swapchain.cpp.i:
-	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/swapchain.cpp.i
-.PHONY : src/swapchain.cpp.i
+src/vkhelper.cpp.i:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/vkhelper.cpp.i
+.PHONY : src/vkhelper.cpp.i
 
-src/swapchain.s: src/swapchain.cpp.s
+src/vkhelper.s: src/vkhelper.cpp.s
 
-.PHONY : src/swapchain.s
+.PHONY : src/vkhelper.s
 
 # target to generate assembly for a file
-src/swapchain.cpp.s:
-	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/swapchain.cpp.s
-.PHONY : src/swapchain.cpp.s
+src/vkhelper.cpp.s:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/vkhelper.cpp.s
+.PHONY : src/vkhelper.cpp.s
+
+src/window.obj: src/window.cpp.obj
+
+.PHONY : src/window.obj
+
+# target to build an object file
+src/window.cpp.obj:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/window.cpp.obj
+.PHONY : src/window.cpp.obj
+
+src/window.i: src/window.cpp.i
+
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.cpp.i:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/window.cpp.i
+.PHONY : src/window.cpp.i
+
+src/window.s: src/window.cpp.s
+
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.cpp.s:
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/window.cpp.s
+.PHONY : src/window.cpp.s
 
 # Help Target
 help:
@@ -188,9 +215,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/swapchain.obj
-	@echo ... src/swapchain.i
-	@echo ... src/swapchain.s
+	@echo ... src/vkhelper.obj
+	@echo ... src/vkhelper.i
+	@echo ... src/vkhelper.s
+	@echo ... src/window.obj
+	@echo ... src/window.i
+	@echo ... src/window.s
 .PHONY : help
 
 

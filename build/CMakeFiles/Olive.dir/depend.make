@@ -3,10 +3,19 @@
 
 CMakeFiles/Olive.dir/src/main.cpp.obj: .././include/GLFW/glfw3.h
 CMakeFiles/Olive.dir/src/main.cpp.obj: ../src/main.cpp
-CMakeFiles/Olive.dir/src/main.cpp.obj: ../src/swapchain.h
+CMakeFiles/Olive.dir/src/main.cpp.obj: ../src/vkhelper.h
+CMakeFiles/Olive.dir/src/main.cpp.obj: ../src/window.h
 CMakeFiles/Olive.dir/src/main.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vk_platform.h
 CMakeFiles/Olive.dir/src/main.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vulkan.h
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj: ../src/swapchain.cpp
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj: ../src/swapchain.h
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: ../src/vkhelper.cpp
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: ../src/vkhelper.h
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vk_platform.h
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vulkan.h
+
+CMakeFiles/Olive.dir/src/window.cpp.obj: .././include/GLFW/glfw3.h
+CMakeFiles/Olive.dir/src/window.cpp.obj: ../src/window.cpp
+CMakeFiles/Olive.dir/src/window.cpp.obj: ../src/window.h
+CMakeFiles/Olive.dir/src/window.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vk_platform.h
+CMakeFiles/Olive.dir/src/window.cpp.obj: C:/VulkanSDK/1.0.3.1/Include/vulkan/vulkan.h
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Olive.dir/src/main.cpp.obj"
-  "CMakeFiles/Olive.dir/src/swapchain.cpp.obj"
+  "CMakeFiles/Olive.dir/src/vkhelper.cpp.obj"
+  "CMakeFiles/Olive.dir/src/window.cpp.obj"
   "../Debug/Olive.pdb"
   "../Debug/Olive.exe"
   "../Debug/Olive.exe.manifest"

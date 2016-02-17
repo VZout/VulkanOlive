@@ -81,46 +81,73 @@ CMakeFiles/Olive.dir/src/main.cpp.obj.provides: CMakeFiles/Olive.dir/src/main.cp
 CMakeFiles/Olive.dir/src/main.cpp.obj.provides.build: CMakeFiles/Olive.dir/src/main.cpp.obj
 
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj: CMakeFiles/Olive.dir/flags.make
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj: CMakeFiles/Olive.dir/includes_CXX.rsp
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj: ../src/swapchain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Olive.dir/src/swapchain.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\Olive.dir\src\swapchain.cpp.obj -c C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\swapchain.cpp
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: CMakeFiles/Olive.dir/flags.make
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: CMakeFiles/Olive.dir/includes_CXX.rsp
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj: ../src/vkhelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Olive.dir/src/vkhelper.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\Olive.dir\src\vkhelper.cpp.obj -c C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\vkhelper.cpp
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olive.dir/src/swapchain.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\swapchain.cpp > CMakeFiles\Olive.dir\src\swapchain.cpp.i
+CMakeFiles/Olive.dir/src/vkhelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olive.dir/src/vkhelper.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\vkhelper.cpp > CMakeFiles\Olive.dir\src\vkhelper.cpp.i
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olive.dir/src/swapchain.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\swapchain.cpp -o CMakeFiles\Olive.dir\src\swapchain.cpp.s
+CMakeFiles/Olive.dir/src/vkhelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olive.dir/src/vkhelper.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\vkhelper.cpp -o CMakeFiles\Olive.dir\src\vkhelper.cpp.s
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj.requires:
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Olive.dir/src/swapchain.cpp.obj.requires
+.PHONY : CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.requires
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj.provides: CMakeFiles/Olive.dir/src/swapchain.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/swapchain.cpp.obj.provides.build
-.PHONY : CMakeFiles/Olive.dir/src/swapchain.cpp.obj.provides
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.provides: CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.provides.build
+.PHONY : CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.provides
 
-CMakeFiles/Olive.dir/src/swapchain.cpp.obj.provides.build: CMakeFiles/Olive.dir/src/swapchain.cpp.obj
+CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.provides.build: CMakeFiles/Olive.dir/src/vkhelper.cpp.obj
+
+
+CMakeFiles/Olive.dir/src/window.cpp.obj: CMakeFiles/Olive.dir/flags.make
+CMakeFiles/Olive.dir/src/window.cpp.obj: CMakeFiles/Olive.dir/includes_CXX.rsp
+CMakeFiles/Olive.dir/src/window.cpp.obj: ../src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Olive.dir/src/window.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\Olive.dir\src\window.cpp.obj -c C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\window.cpp
+
+CMakeFiles/Olive.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olive.dir/src/window.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\window.cpp > CMakeFiles\Olive.dir\src\window.cpp.i
+
+CMakeFiles/Olive.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olive.dir/src/window.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\src\window.cpp -o CMakeFiles\Olive.dir\src\window.cpp.s
+
+CMakeFiles/Olive.dir/src/window.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Olive.dir/src/window.cpp.obj.requires
+
+CMakeFiles/Olive.dir/src/window.cpp.obj.provides: CMakeFiles/Olive.dir/src/window.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Olive.dir\build.make CMakeFiles/Olive.dir/src/window.cpp.obj.provides.build
+.PHONY : CMakeFiles/Olive.dir/src/window.cpp.obj.provides
+
+CMakeFiles/Olive.dir/src/window.cpp.obj.provides.build: CMakeFiles/Olive.dir/src/window.cpp.obj
 
 
 # Object files for target Olive
 Olive_OBJECTS = \
 "CMakeFiles/Olive.dir/src/main.cpp.obj" \
-"CMakeFiles/Olive.dir/src/swapchain.cpp.obj"
+"CMakeFiles/Olive.dir/src/vkhelper.cpp.obj" \
+"CMakeFiles/Olive.dir/src/window.cpp.obj"
 
 # External object files for target Olive
 Olive_EXTERNAL_OBJECTS =
 
 ../Debug/Olive.exe: CMakeFiles/Olive.dir/src/main.cpp.obj
-../Debug/Olive.exe: CMakeFiles/Olive.dir/src/swapchain.cpp.obj
+../Debug/Olive.exe: CMakeFiles/Olive.dir/src/vkhelper.cpp.obj
+../Debug/Olive.exe: CMakeFiles/Olive.dir/src/window.cpp.obj
 ../Debug/Olive.exe: CMakeFiles/Olive.dir/build.make
 ../Debug/Olive.exe: CMakeFiles/Olive.dir/linklibs.rsp
 ../Debug/Olive.exe: CMakeFiles/Olive.dir/objects1.rsp
 ../Debug/Olive.exe: CMakeFiles/Olive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\Debug\Olive.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bideb\Documents\Workspaces\C++\Vulkan\Titan\Olive\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\Debug\Olive.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Olive.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,7 +156,8 @@ CMakeFiles/Olive.dir/build: ../Debug/Olive.exe
 .PHONY : CMakeFiles/Olive.dir/build
 
 CMakeFiles/Olive.dir/requires: CMakeFiles/Olive.dir/src/main.cpp.obj.requires
-CMakeFiles/Olive.dir/requires: CMakeFiles/Olive.dir/src/swapchain.cpp.obj.requires
+CMakeFiles/Olive.dir/requires: CMakeFiles/Olive.dir/src/vkhelper.cpp.obj.requires
+CMakeFiles/Olive.dir/requires: CMakeFiles/Olive.dir/src/window.cpp.obj.requires
 
 .PHONY : CMakeFiles/Olive.dir/requires
 
