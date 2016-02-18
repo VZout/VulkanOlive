@@ -45,10 +45,6 @@ GL/glu.h
 -
 
 C:/Users/bideb/Documents/Workspaces/C++/Vulkan/Titan/Olive/src/main.cpp
-windows.h
--
-iostream
--
 vulkan/vulkan.h
 -
 vkhelper.h
