@@ -1,3 +1,0 @@
-cd Debug
-Olive
-cd ..

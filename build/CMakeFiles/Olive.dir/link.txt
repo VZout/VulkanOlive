@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\Olive.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Olive.dir/objects.a @CMakeFiles\Olive.dir\objects1.rsp
-C:\MinGW\bin\g++.exe   -std=c++11  -static -Wl,--whole-archive CMakeFiles\Olive.dir/objects.a -Wl,--no-whole-archive  -o ..\Debug\Olive.exe -Wl,--out-implib,libOlive.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Olive.dir\linklibs.rsp

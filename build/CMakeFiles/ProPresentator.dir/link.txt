@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\ProPresentator.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\ProPresentator.dir/objects.a @CMakeFiles\ProPresentator.dir\objects1.rsp
-C:\MinGW\bin\g++.exe   -std=c++11 -DVK_USE_PLATFORM_WIN32_KHR  -static -Wl,--whole-archive CMakeFiles\ProPresentator.dir/objects.a -Wl,--no-whole-archive  -o ..\Debug\ProPresentator.exe -Wl,--out-implib,libProPresentator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ProPresentator.dir\linklibs.rsp
